@@ -8,11 +8,11 @@ SideMenu.addEventListener("click", () => {
 /*Download CV*/
 const btnContact = document.getElementById("download");
 btnContact.addEventListener("click", function () {
-    const cvUrl = "download/CV-TÜRKCE.pdf";
+    const cvUrl = "download/CV-Omer-Ayik.pdf";
 
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.setAttribute("download", "ÖMER-AYIK-CV.pdf");
+    link.setAttribute("download", "CV-Omer-Ayik.pdf");
 
     document.body.appendChild(link);
     link.click();
